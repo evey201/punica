@@ -3,14 +3,14 @@ import { FullContainer } from "./comingSoon.styled";
 export const ComingSoon = ({ logo }) => {
   return (
     <>
-      <FullContainer className="h-screen">
+      <FullContainer className="h-screen flex flex-col">
         <div className="m-0">
           <span>{logo}</span>
         </div>
-        <div className="flex justify-center items-center h-full">
+        <div className="flex flex-1 justify-center items-center">
           <div className="font-bold text-[2.125rem] md:text-7xl text-[#AE1F23] tracking-widest">Coming Soon</div>
         </div>
-        <footer className="text-center w-full bg-slate-100">Punica</footer>
+        <footer className="text-center w-full bg-slate-100"> &copy; Punica 2023</footer>
       </FullContainer>
     </>
   );
